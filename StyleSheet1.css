@@ -1,0 +1,160 @@
+body
+{
+    background-color:#8b8989;
+
+}
+.image
+{
+    width:20%;
+	height:500px;
+    position:absolute;
+    top:1cm;
+    right:-3cm;
+    background-image:url('images/tolaat.jpg');
+    background-repeat:no-repeat;
+}
+.title
+{
+    text-align:center;
+    color:aqua;
+    text-shadow:5px 5px 10px aqua;
+    font-size:50px;
+}
+.theBooks
+{
+    padding-left:20%;
+}
+ul#bookList li div
+{
+	display: inline-block;
+}
+
+.left
+{
+	float: left;
+    text-align: center;
+    width: 28%;
+    padding-top:8px;
+}
+
+.right
+{
+	float: left;
+    text-align: center;
+    width: 28%;
+    padding-top:8px;
+    border-left:1px solid black;
+
+}
+
+.center
+{
+    float: left;
+	width: 28%;
+	text-align: center;
+    padding-top:8px;
+    border-left:1px solid black;
+}
+
+ul
+{
+	list-style-type: none;
+	width: 500px;
+    padding-left:6%;
+}
+
+ul#bookList li
+{
+	border: 1px solid black;
+	padding: 10px;
+    background-color:purple;
+    margin-left:-40;
+}
+
+.divDeleteClass
+{
+    width:5%;
+    line-height:50%;
+    color:red;
+    position: relative;
+    top: 0.1cm;
+    font-style:italic;
+    font-size:40px;
+    background-color:black;
+    text-align:center;
+    height:0.8cm;
+    cursor:pointer;
+}
+.editClass
+{
+    border: none;
+    width: 5%;
+    height: 0.8cm !important;
+    line-height: 50%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    padding-left: 2px;
+    background-color: black;
+    height: 1cm;
+    cursor: pointer;
+    margin-right: 0.2cm;
+}
+.newInputBookClass
+{
+    width:2cm;
+}
+.editBookClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
+    margin-left: -7%;
+
+}
+.editAuthorClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
+}
+.editScoreClass
+{
+    display: block !important;
+    width: 15%;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+    background-color: black;
+    text-align: center;
+    height: 0.4cm;
+    cursor: pointer;
+}
+.classToDisplayNone
+{
+    display:none !important;
+}
+.theMessage
+{
+    margin-left: 17%;
+    margin-top: 0.5cm;
+    color:red;
+    font-size:20px;
+    display:none;
+}
+.searchArea
+{
+    margin-left:13%;
+}
