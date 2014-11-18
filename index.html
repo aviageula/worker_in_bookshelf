@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title>הספר שלי</title>
+    <link href="StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!--<div class="image"></div>הלוגו בצד ימין למעלה-->
+    <h1 class="title">My bookshelf</h1><!--כותרת ראשית-->
+    <h2>Enter your favorite book</h2><!--להכניס ספר-->
+    <input type="button" value="click!!" onclick="startCount()"/>
+    <p>the next seven is: <output id="theSevens"></output></p>
+    <div>
+        <input type="text" placeholder="Book name" id="bookName" /><!--שם ספר-->
+        <input type="text" placeholder="Author name" id="authorName" /><!--שם סופר-->
+        <input type="text" placeholder="Give a score(1-10)" id="score" /><!--ציון-->
+        <button onclick="addBook()">Add this book</button><!--כפתור הוסף ספר-->
+        <button onclick="reset()">Reset all fields</button><!--ריסט לאינפוט-->
+    </div>
+
+    <h3 class="theBooks">Your Books:</h3><!--כותרת לרשימה-->
+    <div class="searchArea">
+        <button onclick="clearListAndArray()">Clear List</button><!--ריסט לרשימה ולמערך-->
+        <input type="text" placeholder="search by book name" onkeyup="search(event)" id="searchName" /><!--אינפוט חיפוש לפי שם ספר-->
+    </div>
+    <ul id="bookList"></ul><!--יול מכיל אל איי-->
+    <div id="message" class="theMessage">the book is not found</div><!--הספר לא נמצא-->
+
+    <script src="JavaScript1.js"></script>
+
+</body>
+</html>
